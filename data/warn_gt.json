@@ -1,0 +1,620 @@
+[
+    {
+        "id": "E01.01",
+        "number": null,
+        "gt_us_concepts": [
+            "the first time I launch the app",
+            "introduction to how it works"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "first time the app is launched",
+                "introduction to how the app works"
+            ],
+            [
+                "introduction to how the app works",
+                "when the app is launched subsequently"
+            ],
+            [
+                "explanatory content"
+            ]
+        ]
+    },
+    {
+        "id": "E01.02",
+        "number": null,
+        "gt_us_concepts": [
+            "the first time I launch the app",
+            "terms of use and privacy provisions",
+            "grant my consent"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "by using the app",
+                "accepts the terms of use and privacy provisions"
+            ],
+            [
+                "terms of use"
+            ],
+            [
+                "only the first time a user launches the app",
+                "consent prompt"
+            ]
+        ]
+    },
+    {
+        "id": "E01.03",
+        "number": null,
+        "gt_us_concepts": [
+            "the first time I use the app",
+            "consent to the creation of pseudonomyzed IDs and sending them to devices near me"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "confirmation of the creation of pseudonymized Ids and their transmission to nearby devices"
+            ],
+            [
+                "the first time the app is used",
+                "prompt"
+            ]
+        ]
+    },
+    {
+        "id": "E01.04",
+        "number": null,
+        "gt_us_concepts": [
+            "the first time I use the app",
+            "be asked whether the application can access the smartphone' bluetooth"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "authorization to use the generation of pseudonymous IDs and send them to nearby devices",
+                "usage of Bluetooth Low Energy"
+            ],
+            [
+                "configuration of the general Bluetooth functions",
+                "only possible in the system settings"
+            ]
+        ]
+    },
+    {
+        "id": "E01.05",
+        "number": null,
+        "gt_us_concepts": [
+            "the first time I use the app",
+            "be asked whether the application is allowed to send me notifications"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "notification settings are queried",
+                "before the app is used for the first time"
+            ],
+            [
+                "enables local notifications",
+                "true push notifications from external servers"
+            ],
+            [
+                "the first time the app is used",
+                "prompt"
+            ]
+        ]
+    },
+    {
+        "id": "E01.06",
+        "number": null,
+        "gt_us_concepts": [
+            "my language",
+            "the first time I use it"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "configured system language"
+            ],
+            [
+                "if the content is not available in the detected system language",
+                "English is selected by default"
+            ],
+            [
+                "languages other than English"
+            ]
+        ]
+    },
+    {
+        "id": "E01.07",
+        "number": null,
+        "gt_us_concepts": [
+            "help functions and settings for accessibility",
+            "during the onboarding process"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "accessibility",
+                "depending on the options available"
+            ]
+        ]
+    },
+    {
+        "id": "E02.01",
+        "number": null,
+        "gt_us_concepts": [
+            "FAQ list"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "link to a web page with FAQs",
+                "web page"
+            ]
+        ]
+    },
+    {
+        "id": "E02.02",
+        "number": null,
+        "gt_us_concepts": [
+            "instructions"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "explanation of the app's various functions"
+            ]
+        ]
+    },
+    {
+        "id": "E02.03",
+        "number": null,
+        "gt_us_concepts": [
+            "explanatory video"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "explanation of the app's various functions"
+            ]
+        ]
+    },
+    {
+        "id": "E02.04",
+        "number": null,
+        "gt_us_concepts": [
+            "publication information for the app"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "publication information"
+            ],
+            [
+                "publication information",
+                "usual information required"
+            ]
+        ]
+    },
+    {
+        "id": "E02.05",
+        "number": null,
+        "gt_us_concepts": [
+            "terms of use and data privacy information",
+            "at any time"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "terms of use and data privacy information"
+            ]
+        ]
+    },
+    {
+        "id": "E02.06",
+        "number": null,
+        "gt_us_concepts": [
+            "various hotlines for technical, privacy-related, health-related, and psychological questions, as well as for verification of test results"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "technical hotline",
+                "hotline for obtaining a phone TAN"
+            ],
+            [
+                "times the hotline is available"
+            ],
+            [
+                "phone numbers can be called"
+            ]
+        ]
+    },
+    {
+        "id": "E03.01",
+        "number": null,
+        "gt_us_concepts": [
+            "activate and deactivate the app"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "generating pseudonymized IDs",
+                "can be activated and deactivated",
+                "sending them to nearby devices"
+            ],
+            [
+                "consequences of activation/deactivation"
+            ]
+        ]
+    },
+    {
+        "id": "E03.02",
+        "number": null,
+        "gt_us_concepts": [
+            "reset to the app to the delivery defaults"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "reset to the delivery defaults",
+                "setting option"
+            ],
+            [
+                "saved traces",
+                "deleted through the system settings"
+            ]
+        ]
+    },
+    {
+        "id": "E03.03",
+        "number": null,
+        "gt_us_concepts": [
+            "adjust the app settings in a menu"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "call a menu for app settings"
+            ],
+            [
+                "notifications",
+                "can be activated and deactivated"
+            ],
+            [
+                "generating pseudonymized Ids",
+                "sending them to nearby devices",
+                "can be activated and deactivated"
+            ],
+            [
+                "before access permissions are deactivated",
+                "receive information",
+                "app functions"
+            ]
+        ]
+    },
+    {
+        "id": "E04.01",
+        "number": null,
+        "gt_us_concepts": [
+            "be notified",
+            "when a person I have had contact with has reported an infection"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "notification settings",
+                "sends a notification to the user"
+            ],
+            [
+                "if the risk assessment for a user changes",
+                "notification informs users",
+                "changed risk assessment",
+                "news in the app",
+                "until the app is opened"
+            ]
+        ]
+    },
+    {
+        "id": "E04.02",
+        "number": null,
+        "gt_us_concepts": [
+            "if I am exposed to the virus",
+            "instructions"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "notification",
+                "leads the user to the app",
+                "recommendations from the RKI"
+            ]
+        ]
+    },
+    {
+        "id": "E05.01",
+        "number": null,
+        "gt_us_concepts": [
+            "only positively tested users",
+            "trigger a one-time warning"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "only positive tests",
+                "trigger a warning",
+                "phone TAN procedure"
+            ],
+            [
+                "warning",
+                "only be triggered once for each test"
+            ]
+        ]
+    },
+    {
+        "id": "E05.02",
+        "number": null,
+        "gt_us_concepts": [
+            "in case of a positive test result",
+            "information about the illness and the necessary next steps"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "test result",
+                "news in the app",
+                "notification merely informs you"
+            ],
+            [
+                "information about necessary measures",
+                "info text with defined content",
+                "test result",
+                "hotline number"
+            ]
+        ]
+    },
+    {
+        "id": "E06.01",
+        "number": null,
+        "gt_us_concepts": [
+            "scan a QR code provided by a medical professional or test center"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "QR code provided on a flyer from the medical professional or test center can be scanned"
+            ],
+            [
+                "explanatory text"
+            ]
+        ]
+    },
+    {
+        "id": "E06.02",
+        "number": null,
+        "gt_us_concepts": [
+            "notified within the Corona-Warn-App",
+            "as soon as a test result becomes available"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "notification merely informs you",
+                "news in the app",
+                "test result"
+            ],
+            [
+                "notification",
+                "result"
+            ]
+        ]
+    },
+    {
+        "id": "E06.03",
+        "number": null,
+        "gt_us_concepts": [
+            "if I receive a positive test result",
+            "grant my consent to sending the pseudonymized IDs"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "IDs can be sent to the Warn server pseudonymized"
+            ],
+            [
+                "if successfully verified beforehand",
+                "verification server",
+                "hotline for the TAN procedure",
+                "data transmission"
+            ],
+            [
+                "data transmission",
+                "if the app user has granted consent beforehand"
+            ]
+        ]
+    },
+    {
+        "id": "E06.04",
+        "number": null,
+        "gt_us_concepts": [
+            "use a manual process",
+            "send the pseudonymized IDs"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "generate a TAN",
+                "provide it to the person"
+            ]
+        ]
+    },
+    {
+        "id": "E06.05",
+        "number": null,
+        "gt_us_concepts": [
+            "enter a TAN"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "enter a TAN"
+            ],
+            [
+                "verifies the entered TAN",
+                "feedback as to whether it was correct"
+            ]
+        ]
+    },
+    {
+        "id": "E06.06",
+        "number": null,
+        "gt_us_concepts": [
+            "after the TAN is verified",
+            "share my pseudonymized IDs"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "IDs can be sent to the Warn server pseudonymized"
+            ],
+            [
+                "if successfully verified beforehand",
+                "verification server",
+                "hotline for the phone TAN procedure",
+                "data transmission"
+            ],
+            [
+                "if the person has granted consent beforehand",
+                "Data transmission"
+            ]
+        ]
+    },
+    {
+        "id": "E07.01",
+        "number": null,
+        "gt_us_concepts": [
+            "configure the parameters for risk scoring"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "thresholds can be configured"
+            ],
+            [
+                "dynamic configurations from the RKI that can affect how the risk assessment is calculated"
+            ]
+        ]
+    },
+    {
+        "id": "E08.01",
+        "number": null,
+        "gt_us_concepts": [
+            "contact a hotline"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "phone number of the technical hotline"
+            ]
+        ]
+    },
+    {
+        "id": "E09.01",
+        "number": null,
+        "gt_us_concepts": [
+            "audio output"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "accessibility regarding audio output",
+                "options"
+            ]
+        ]
+    },
+    {
+        "id": "E09.02",
+        "number": null,
+        "gt_us_concepts": [
+            "good contrast settings",
+            "modifiable font sizes",
+            "easily readable font"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "accessibility regarding contrast and font size/type",
+                "options"
+            ]
+        ]
+    },
+    {
+        "id": "E09.03",
+        "number": null,
+        "gt_us_concepts": [
+            "content in simplified language"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "texts and languages"
+            ]
+        ]
+    },
+    {
+        "id": "E10.01",
+        "number": null,
+        "gt_us_concepts": [
+            "manage the app content centrally"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "content management",
+                "RKI requirements"
+            ],
+            [
+                "content",
+                "static and dynamic content",
+                "in line with technical feasibility"
+            ],
+            [
+                "initial version",
+                "updates will be performed through an app update"
+            ]
+        ]
+    }
+]

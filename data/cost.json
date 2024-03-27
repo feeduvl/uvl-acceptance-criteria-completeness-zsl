@@ -1,0 +1,434 @@
+{
+    "documents": [
+        {
+            "id": "COST-549",
+            "number": null,
+            "text": "###As a cost management engineer I want access to internal APIs not exposed over the internet so that I can perform standard administrative tasks###Masu has an internal route via turnpike Koku daily UI has an internal route via turnpike+++"
+        },
+        {
+            "id": "COST-232",
+            "number": null,
+            "text": "###As a nise user,\nI want to be able to generate data with specific characteristics\nSo that I can better model real-world data patterns###Nise can generate values within a given range Nise can generate normally distributed values (e.g. most values are within a range, but there are some percentage of outliers) Nise can generate values with seasonality (e.g. more values during \"work hours\" than during \"sleep hours\")+++"
+        },
+        {
+            "id": "COST-1957",
+            "number": null,
+            "text": "###As a dev user I want a Masu endpoint to view all sources and providers in the database so that we can see what is there without running manual DB queries###List all Sources in DB List all Providers in DB Filter Sources and Providers by schema Openapi schema has been updated with new endpoint+++"
+        },
+        {
+            "id": "COST-1348",
+            "number": null,
+            "text": "###As a developer I want to see request/response time logged so that I know how long our api server takes to process a request.###For each API response, also log the total request time.+++"
+        },
+        {
+            "id": "COST-527",
+            "number": null,
+            "text": "###As an engineer I want parquet conversion to be fast so that we can scale easier.###No regressions+++"
+        },
+        {
+            "id": "COST-2387",
+            "number": null,
+            "text": "###As a user I want to have query handlers configured for OCI APIs###Query handlers created for OCI data types No APIs required yet+++"
+        },
+        {
+            "id": "COST-2391",
+            "number": null,
+            "text": "###As a user I want OCI to have cost model support so that I can add markup/discounts to my costs.###Cost models should support markup/discount for OCI source+++"
+        },
+        {
+            "id": "COST-2390",
+            "number": null,
+            "text": "###As a user I want OCI API endpoints to show currency data based on currencies supported.###OCI API endpoints to show currencies+++"
+        },
+        {
+            "id": "COST-2389",
+            "number": null,
+            "text": "###As a user I want API endpoints available to see my OCI data broken down.###Api endpoints to view summarised OCI data+++"
+        },
+        {
+            "id": "COST-1035",
+            "number": null,
+            "text": "###As an internal user I want Trino active in our environments so we can utilize it.###ENABLE_PARQUET_PROCESSING is true in Production+++"
+        },
+        {
+            "id": "COST-2392",
+            "number": null,
+            "text": "###As a user I want to be able to add OCI as a source via platform source integration.###Should be possible to add OCI as a source via platform sources+++"
+        },
+        {
+            "id": "COST-2385",
+            "number": null,
+            "text": "###As a user I want my data to be retrievable quickly so that I don't have to wait.###Views contain accurate data+++"
+        },
+        {
+            "id": "COST-702",
+            "number": null,
+            "text": "###As a developer/maintainer of cost management, I want  my API metrics to include account information to differentiate/group metrics by account.### Account is available in our API prometheus metrics from Django.+++"
+        },
+        {
+            "id": "COST-552",
+            "number": null,
+            "text": "###As a developer I want monitoring on our RDS instance so that we can know when we have problems.###RDS metrics are enabled in staging RDS metrics are enabled in prod+++"
+        },
+        {
+            "id": "COST-1174",
+            "number": null,
+            "text": "###As dev/ops I want an API with celery task information so that I know whether we are backlogged.###We have API access to our queue information for celery.+++"
+        },
+        {
+            "id": "COST-2388",
+            "number": null,
+            "text": "###As a user I want to have a provider map configured for OCI APIs.###Query handlers created for OCI data types No APIs required yet+++"
+        },
+        {
+            "id": "COST-203",
+            "number": null,
+            "text": "###As a tester I want to make sure we test rbac roles correctly regarding node visibility.### Test to check a specific user has access to node data  Negative test to make sure the current user cannot access other nodes+++"
+        },
+        {
+            "id": "COST-2384",
+            "number": null,
+            "text": "###As a user I want OCI reports processed by cost mgmt so that I can better understand my costs.###The backend processing for OCI is complete No APIs required yet+++"
+        },
+        {
+            "id": "COST-2386",
+            "number": null,
+            "text": "###As a user I want my csv data to be converted to parquet files and pushed to S3 for trino integration.###Csvs are correctly converted to parquet for summary+++"
+        },
+        {
+            "id": "COST-435",
+            "number": null,
+            "text": "###As a developer I want Presto available for local development with the docker-compose workflow.### We can spin up Presto locally for development using docker-compose+++"
+        },
+        {
+            "id": "COST-758",
+            "number": null,
+            "text": "###As a maintainer of Presto in our cluster I want a reliable image so that I can update and deploy with ease.### We have a RHEL based Hive image in quay.io going forward+++"
+        },
+        {
+            "id": "COST-607",
+            "number": null,
+            "text": "###As a user I want a unified status page so that I know when a service or app is down.###We have a status line in the status page We share knowledge with the Ansible Services teams.+++"
+        },
+        {
+            "id": "COST-1041",
+            "number": null,
+            "text": "###As an engineer I want to delete summary data for the data range I'm reprocessing so that I don't have duplicate data.###AWS Trino is covered Azure Trino is covered GCP Trino is covered OCP Trino is covered+++"
+        },
+        {
+            "id": "COST-1165",
+            "number": null,
+            "text": "###As dev/operations I want a priority queue to run immediate tasks triggered in the UI.###Source deletes should be triggered in this queue Cost model cost updates triggered from the cost model pages should be triggered in this queue+++"
+        },
+        {
+            "id": "COST-1166",
+            "number": null,
+            "text": "###As dev/operations I want OpenShift summary tasks to run in their own queue/worker so that they will not be blocked by large cloud account processing.###OpenShift summary tasks are processed in their own worker+++"
+        },
+        {
+            "id": "COST-2393",
+            "number": null,
+            "text": "###As a user I want OCI added as a new provider type for cost management###Able to create an OCI provider NO DOWNLOAD OR PROCESSING FOR SAID SOURCE Reach out to Luke for creating a real source this is locked down to a specific account right now due to upgrade+++"
+        },
+        {
+            "id": "COST-568",
+            "number": null,
+            "text": "###As an engineer I want test data that allows OpenShift projects to exist on multiple nodes in a cluster so that I can test this scenario.###Nise generates OpenShift data for pods that can exist on multiple nodes in the same project.+++"
+        },
+        {
+            "id": "COST-543",
+            "number": null,
+            "text": "###As an engineer I want to query prometheus directly so that footprint and dependency are minimized.###We can query prometheus in a cluster using code We have written unit tests testing our functionality around querying Prometheus+++"
+        },
+        {
+            "id": "COST-109",
+            "number": null,
+            "text": "###As a Nise user creating a static file, I want to only specify the options that should be set statically, so that I can write simpler static files that only include the details that I care about and allows all other values to be randomly generated.###An incomplete static file still produces a report with meaningful values. Values that were None are now a random value with the correct data type.+++"
+        },
+        {
+            "id": "COST-1036",
+            "number": null,
+            "text": "###As an engineer I want Postgres line items to no longer be deleted because line items are stored in S3.###The expired data remover no longer removes line items.+++"
+        },
+        {
+            "id": "COST-255",
+            "number": null,
+            "text": "###As a customer, I want the ability to access the associated cost model for a specific cloud account or OCP cluster from the OpenShift and Infrastructure details tables, so that I can understand how the cost totals are being calculated###Ability to view cost model rates set for specific source data+++"
+        },
+        {
+            "id": "COST-231",
+            "number": null,
+            "text": "###As a user I want my API queries to not time out so that I can access my data.###We call CLUSTER often enough to prevent time outs today We call CLUSTER after doing a full month re-write+++"
+        },
+        {
+            "id": "COST-196",
+            "number": null,
+            "text": "###As a data engineer I want to assess my options for data processing so that I select a reasonable tool for our data processing needs.###We feel reasonably confident picking a tool for large scale data processing.+++"
+        },
+        {
+            "id": "COST-1065",
+            "number": null,
+            "text": "###As a user of OpenShift Cluster Manager (OCM) I want to see cluster costs and a connection to cost management for a better connected customer experience (CCX)###We have cost data integrated into OCM+++"
+        },
+        {
+            "id": "COST-434",
+            "number": null,
+            "text": "###As a developer I want Presto deployed in the cost management OpenShift projects so that we can run our new workloads.###Presto can be deployed using e2e-deploy and is in CI/QA Presto is successfully deployed in our staging/production environments using app-interface Presto is deployed into our testing environments and integrated as part of our testing+++"
+        },
+        {
+            "id": "COST-1029",
+            "number": null,
+            "text": "###As a user I want an API for my OpenShift on GCP data so that I may consume it.###OpenShift on GCP API exist and return data+++"
+        },
+        {
+            "id": "COST-142",
+            "number": null,
+            "text": "###As a data engineer I want data processed as efficiently as possible so that I can make the most of our existing resources.###Profile results are posted in the issue and any relevant new issues are open+++"
+        },
+        {
+            "id": "COST-546",
+            "number": null,
+            "text": "###As an engineer I want to retrieve and store the metrics from a cluster so that we can do our normal cost management summarization/processing.### We can successfully package and send a file and see the upload in the logs+++"
+        },
+        {
+            "id": "COST-438",
+            "number": null,
+            "text": "###As a user I want our summary SQL to run in Presto so that we can summarize data in Presto.###Confirm that the SQL successfully computes and results are comparable to our Postgresql+++"
+        },
+        {
+            "id": "COST-143",
+            "number": null,
+            "text": "###As a data engineer I want to convert our CSVs to Parquet so that I can leverage columnar data store performance boosts common to distributed big data applications.###We pick the right solution to convert our CSVs to Parquet+++"
+        },
+        {
+            "id": "COST-114",
+            "number": null,
+            "text": "###As a nise user, I want the CLI args to use sub-commands to organize arguments into logical groupings so that it is more clear which arguments are grouped together without needing to include extraneous information in the argument itself.### Existing users of nise are aware of changes and any required changes on their part are made.   All functionality remains and tests pass.+++"
+        },
+        {
+            "id": "COST-244",
+            "number": null,
+            "text": "###As a user I want to be able to remedy my source's status from platform sources so that I can continue the flow of data when I correct the issue.###provider status can no longer disable a provider+++"
+        },
+        {
+            "id": "COST-210",
+            "number": null,
+            "text": "###As a user I want to know how to leverage AWS organizational units in cost management.###RBAC documentation includes information on using AWS org units+++"
+        },
+        {
+            "id": "COST-61",
+            "number": null,
+            "text": "###As a Koku Developer I want a place to store private configuration and secrets so that I don't lose important data in the event of a disaster.###A private git repo is created on Github Guidelines about what does/doesn't go into the private repo+++"
+        },
+        {
+            "id": "COST-149",
+            "number": null,
+            "text": "###As a developer, I want to be able to compare the performance of the partitioned tables and API changes so that I can leverage them against the existing application.###Better performance from partitioned tables and API changes+++"
+        },
+        {
+            "id": "COST-721",
+            "number": null,
+            "text": "###As an engineer I want our worker to survive cluster upgrades so we can continue processing.###Switch celery backend to redis Remove rabbit deployments from e2e-deploy Remove rabbit from app-interface Remove rabbit from docker-compose+++"
+        },
+        {
+            "id": "COST-1037",
+            "number": null,
+            "text": "###As an engineer I want to expire partitions of the daily summary table now, nothing else.###Our expired data remover removes partitions now, not data in all of our tables. The date range for which expired partition is removed is configurable+++"
+        },
+        {
+            "id": "COST-1162",
+            "number": null,
+            "text": "###As dev/operations I want to guarantee that certain tasks can only run one at a time for a source and time range.### Only 1 update summary tables task can be running at a time for a source/billing month  Only 1 update cost model costs task can be running at a time for a source/billing month+++"
+        },
+        {
+            "id": "COST-147",
+            "number": null,
+            "text": "###As a developer, I want to be able to leverage the partitioned tables in queries as well as maintain them via migrations###Local tests can run successfully+++"
+        },
+        {
+            "id": "COST-107",
+            "number": null,
+            "text": "###As koku developer, I want to review the reporting class architecture so that I can plan for future improvements###Deliver a summary to the team about improvements that we can make to these classes Create new issues related to improving the application architecture.+++"
+        },
+        {
+            "id": "COST-85",
+            "number": null,
+            "text": "###As a team member I want to help release code so that we all know how and we share the responsibility equally.###A release process document is created and we all sign off as able to release A training session is held where we review the document and go through the release process A schedule is configured so we trade off release responsibilities+++"
+        },
+        {
+            "id": "COST-384",
+            "number": null,
+            "text": "###As a developer I want to identify the best statistical library for our current and future use cases so that I can implement forecasting using that library.###Discussion with key stakeholders to confirm the selection A basic POC to show the library can meet our needs; integrating POC into Koku is NOT required - this can be a standalone script+++"
+        },
+        {
+            "id": "COST-298",
+            "number": null,
+            "text": "###As a user I want my OCP source to reflect an invalid cluster identifier for my account, so that I know I have improperly configured my OCP source.###If the given OCP cluster ID is invalid for the users account the source status should reflect the invalid cluster identifier+++"
+        },
+        {
+            "id": "COST-553",
+            "number": null,
+            "text": "###As a user I want to create rates based on the persistent volume claims in my cluster so that I can charge on storage usage.###You can create a cost model with a rate on persistent volume claims per month You can create a cost model with a rate on persistent volume claims by tag per month Cost is calculated for PVCs per month if tiered_rates used Cost is calculated per PVC tag if tag rates used+++"
+        },
+        {
+            "id": "COST-547",
+            "number": null,
+            "text": "###As a user I want my last N uploads stored via a PVC so that I can download them myself###Verify that you can obtain an upload tar.gz from the file path listed in the custom resource status list using the oc cp command. Verify that if you adjust the configured kept packages number the associated list reflex that value (increase or decrease)+++"
+        },
+        {
+            "id": "COST-1026",
+            "number": null,
+            "text": "###As a user I want the portion of GCP bill allocated to running OpenShift to be calculated so that I can better understand my costs.###The backend processing for OCP on GCP is complete No APIs required yet+++"
+        },
+        {
+            "id": "COST-124",
+            "number": null,
+            "text": "###As a user I want to know why a page did not load properly, so that I can understand what happened and how to fix.###In any pages under https://cloud.redhat.com/cost-management/ and https://cloud.redhat.com/beta/cost-management/ should show the same 404 message when the page is not found.+++"
+        },
+        {
+            "id": "COST-242",
+            "number": null,
+            "text": "###As a developer I want the code behavior in each source path to be as consistent as possible so that we reduce the possibility for source-specific bugs.###AWS markup cost runs with a start and end date, not bills Azure markup cost runs with a start and end date, not bills No cost model cost regressions+++"
+        },
+        {
+            "id": "COST-224",
+            "number": null,
+            "text": "###As a Nise developer, I want the Generators to use a \"base\" Jinja template for generating data, so that the generators are simpler, more consistent, and less error-prone.###AWSGenerator uses a Jinja template to generate data OCPGenerator uses a Jinja template to generate data AzureGenerator uses a Jinja template to generate data  \"Else\" code paths that do not use the templates are removed+++"
+        },
+        {
+            "id": "COST-198",
+            "number": null,
+            "text": "###As a data engineer I want to trigger data transformation and report processing when new data lands in object storage so that it is processed immediately and we can scale resources based on events.###We determine if we have a path forward with triggering our data pipeline in an event driven way.+++"
+        },
+        {
+            "id": "COST-436",
+            "number": null,
+            "text": "###As a developer I want to configure our various environments to connect to environment-specific S3 buckets so that Presto + Hive metastore can store the schema for our data/partitions.###Presto is connected to our S3 bucket and we can query data there+++"
+        },
+        {
+            "id": "COST-433",
+            "number": null,
+            "text": "###As an admin, when I first land on Cost Management > Overview page, I want to know what my options are to set up Cost Management to start receiving data from my OpenShift Cluster, so that I can start tracking my spend.###Mock that shows what the empty state of the cost management pages would look like when there are no sources connected.+++"
+        },
+        {
+            "id": "COST-444",
+            "number": null,
+            "text": "###As a developer I want local testing and unit tests to be comparable to our production environment so that we test the same thing.###Decide if we want to make any changes to our test data for unit tests.  Our IQE tests pass fully when using Presto for 100% of our data processing/summarization.+++"
+        },
+        {
+            "id": "COST-545",
+            "number": null,
+            "text": "###As a user I want the cost management operator to obtain the cluster ID and pull secret information programmatically so that configuration of the operator is minimized for a customer to on-board a cluster.###Verify that the cluster role binding is created with the access to the openshift-config namespace Update the custom resource  status if the operator can successfully obtain the pull-secret Update the custom resource status with the cluster ID+++"
+        },
+        {
+            "id": "COST-1063",
+            "number": null,
+            "text": "###As a user I want to see cost changes from a cost model update reflected sooner so that I can better tune my cost model.###We update the cost model cost when a cost model has updated rates. We don't have a flood of celery tasks to deal with+++"
+        },
+        {
+            "id": "COST-275",
+            "number": null,
+            "text": "###As a developer I want to eliminate tenants that have no data for some time so that migrations and deployment to take only the time needed.###We remove empty tenants on some schedule+++"
+        },
+        {
+            "id": "COST-158",
+            "number": null,
+            "text": "###As a user I want the cost management overview page to load quickly even when I have RBAC restrictions on the data I can see.###AWS materialized views are grouped by account Azure materialized views are grouped by account The correct view is selected by the query handler+++"
+        },
+        {
+            "id": "COST-430",
+            "number": null,
+            "text": "###As a user I want to set rates based on tag key / values so that I can vary cost based on user-defined tags.###Tag base rates can be added via the cost-models API Multiple values can be added for each tag key Only 1 value can be marked as default The OpenAPI spec is updated with the new tag_rates+++"
+        },
+        {
+            "id": "COST-443",
+            "number": null,
+            "text": "###As an engineer I want our summarization flow to be triggered when new data is available in S3 so that the time to present new data to a user is lessened.###Presto data summarization is triggered on new data+++"
+        },
+        {
+            "id": "COST-291",
+            "number": null,
+            "text": "###As a cost management customer, I want the cost management operator to be utilizing the latest Ansible operator base image, so that it can make use of the latest features and fixes available.###Operator installs and functions completely without regression Operator upgrades and functions completely without regression+++"
+        },
+        {
+            "id": "COST-544",
+            "number": null,
+            "text": "###As an engineer I want to be able to gather data for all of the relevant prom queries we need to make so that we can match the data we currently get with the existing cost mangement operator.###We collect all of the existing metrics that we get via the metering operator today.+++"
+        },
+        {
+            "id": "COST-1196",
+            "number": null,
+            "text": "###\nAs dev/operations I want to break up our general purpose workers into specialized workers focusing on the four stages of ingest/processing.###Smoke regression testing passes Specific workers are created for docker-compose and OCP and appropriate work is relegated to the correct worker+++"
+        },
+        {
+            "id": "COST-140",
+            "number": null,
+            "text": "###As an application team I want our middleware to run as fast as possible so that request/response time is focused on actual query time.###Tenants are cached after they're first seen Customers are cached after they're first seen Users are cached after they're first seen No regressions in unit tests or IQE tests, no logic changes just a speed up+++"
+        },
+        {
+            "id": "COST-133",
+            "number": null,
+            "text": "###As a database developer I want to upgrade to Postgres 12 so that I can leverage new features and performance gains###Local development with Postgres 12 works with our application Postgres 12 is deployable in CI, QA, Staging environments e2e template/image changes are made to support Postgres 12 The upgrade path to Postgres 12 in production is established and written in this issue for documentation+++"
+        },
+        {
+            "id": "COST-189",
+            "number": null,
+            "text": "###As an engineer releasing cost management I want migrations to run smoothly and for our release process to allow migrations to run before deploying new code so that we are always up to date.###Migrations are run as a step before application deployment All applications deploy successfully respecting any order requirements+++"
+        },
+        {
+            "id": "COST-473",
+            "number": null,
+            "text": "###As a user when I'm in the cost management application, I want to know when a source that is supposed to be connected to Cost has an issue, so that I can go and remedy the issue before it leads to data loss or instability of reporting.###Mock that demonstrates what the UI looks like when a bad source happens.+++"
+        },
+        {
+            "id": "COST-446",
+            "number": null,
+            "text": "###As a user when I am in the cost management application, I want to know when a source that is supposed to be connected to Cost has an issue, so that I can go and remedy the issue before it leads to data loss or instability of reporting.###Mock that demonstrates what the UI looks like when a bad source happens.+++"
+        },
+        {
+            "id": "COST-276",
+            "number": null,
+            "text": "###As a cost-management engineer, I want to create a Cost Management prototype using Apache Druid so that I can see how well it addresses our data layer needs.###Get Druid running in OpenShift Ingest AWS cost data in Druid Ingest OCP cost data in Druid Identify how Cost Models data would integrate into Druid Identify how report queries will run using Druid Identify any pain points or gotchas or showstoppers Deliver a presentation to show off the POC+++"
+        },
+        {
+            "id": "COST-437",
+            "number": null,
+            "text": "###As a developer I want new Presto tables to be created dynamically when we add new customers / data so that we can query it directly.###We create Presto tables for any new customer/data created and added to S3+++"
+        },
+        {
+            "id": "COST-146",
+            "number": null,
+            "text": "###As a developer, I want to create the partitioned table to match the current table definition as well as the requisite number of table partitions to hold existing data.###Script to convert tables and copy data Django ORM is not broken by the changes+++"
+        },
+        {
+            "id": "COST-200",
+            "number": null,
+            "text": "###As a user I want my initial RBAC setup to be more seamless than requiring an organizational admin so that I can get up and running sooner.###The Cost Administrator RBAC role is part of the Default Admin RBAC Group+++"
+        },
+        {
+            "id": "COST-431",
+            "number": null,
+            "text": "###As a user I want my tag base rates to be calculated and added to my supplementary and/or infrastructure costs so that the costs displayed in my report APIs accurately reflect my defined cost models.###Monthly cost calculations for node and cluster show cost for nodes and clusters with the specified tag Usage costs for line items with matching tag key/value reflect the additional cost from the tag based rate+++"
+        },
+        {
+            "id": "COST-450",
+            "number": null,
+            "text": "###As a user I want to enable or disable visibility of selected tags from the platform settings UI, so that I can experience a more performant report.###Mocks to show how the user can enable or disable an AWS tag Mocks to show how the user can enable or disable an Azure tag Mocks have been reviewed by stakeholders Mocks have clear representation on how the UI would look like and behave+++"
+        },
+        {
+            "id": "COST-165",
+            "number": null,
+            "text": "###As an API user I want the default amount of data returned to be small so that I am not overwhelmed with DATA and memory usage in browser or elsewhere.###No regressions We provide enough information for a user to effectively use this form of pagination We respect a default filter value+++"
+        },
+        {
+            "id": "COST-241",
+            "number": null,
+            "text": "###As a user I want to have my Azure report responses be in a consistent unit format.###Azure report placeholder values are updated to the proper value after discussions with product management and UX.+++"
+        },
+        {
+            "id": "COST-297",
+            "number": null,
+            "text": "###As a cost management service administrator, I want to be able to check if the cost management operator is installed on a configured OpenShift cluster.###Engineering metrics emails contain data on if cost-mgmt operator is installed on an OCP source Prometheus receives a metric containing the count of installed/absent OCP sources+++"
+        }
+    ]
+}

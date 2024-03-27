@@ -1,0 +1,1402 @@
+[
+    {
+        "id": "COST-549",
+        "number": null,
+        "gt_us_concepts": [
+            "internal APIs not exposed over the internet"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Masu",
+                "Koku",
+                "internal route via turnpike"
+            ]
+        ]
+    },
+    {
+        "id": "COST-232",
+        "number": null,
+        "gt_us_concepts": [
+            "generate data with specific characteristics"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "generate values within a given range",
+                "generate normally distributed values",
+                "generate values with seasonality"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1957",
+        "number": null,
+        "gt_us_concepts": [
+            "Masu endpoint to view all sources and providers in the database"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "sources in DB",
+                "providers in DB",
+                "filter sources and providers by schema",
+                "openapi schema",
+                "new endpoint"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1348",
+        "number": null,
+        "gt_us_concepts": [
+            "request/response time"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "API response",
+                "log the total request time"
+            ]
+        ]
+    },
+    {
+        "id": "COST-527",
+        "number": null,
+        "gt_us_concepts": [
+            "parquet conversion"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "regressions"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2387",
+        "number": null,
+        "gt_us_concepts": [
+            "query handlers",
+            "configured for OCI API's"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "query handlers",
+                "OCI data types",
+                "APIs"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2391",
+        "number": null,
+        "gt_us_concepts": [
+            "OCI",
+            "cost model support"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "cost models",
+                "markup/discount for OCI source"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2390",
+        "number": null,
+        "gt_us_concepts": [
+            "OCI API endpoints",
+            "currency data based on currencies supported"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "OCI API endpoints",
+                "currencies"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2389",
+        "number": null,
+        "gt_us_concepts": [
+            "API endpoints",
+            "OCI data"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "API endpoints",
+                "summarised OCI data"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1035",
+        "number": null,
+        "gt_us_concepts": [
+            "Trino",
+            "our environments"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "ENABLE_PARQUET_PROCESSING",
+                "Production"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2392",
+        "number": null,
+        "gt_us_concepts": [
+            "OCI as a source vie platform source integration"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "OCI as a source via platform sources"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2385",
+        "number": null,
+        "gt_us_concepts": [
+            "my data",
+            "retrievable quickly"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "accurate data"
+            ]
+        ]
+    },
+    {
+        "id": "COST-702",
+        "number": null,
+        "gt_us_concepts": [
+            "my API metrics",
+            "account information to differentiate/group metrics by account"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Account",
+                "API prometheus metrics from Django"
+            ]
+        ]
+    },
+    {
+        "id": "COST-552",
+        "number": null,
+        "gt_us_concepts": [
+            "monitoring on our RDS instance"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "RDS metrics",
+                "staging",
+                "prod"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1174",
+        "number": null,
+        "gt_us_concepts": [
+            "API with celery task information"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "API access to our queue information for celery"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2388",
+        "number": null,
+        "gt_us_concepts": [
+            "provider map configured for OCI APIs"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Query handlers created for OCI data types",
+                "APIs"
+            ]
+        ]
+    },
+    {
+        "id": "COST-203",
+        "number": null,
+        "gt_us_concepts": [
+            "test rbac roles correctly regarding node visibility"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "test to check a specific user has access to node data",
+                "Negative test to make sure the current user cannot access other node"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2384",
+        "number": null,
+        "gt_us_concepts": [
+            "OCI reports processed by cost mgmt"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "backend processing for OCI",
+                "APIs"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2386",
+        "number": null,
+        "gt_us_concepts": [
+            "csv data",
+            "parquet files",
+            "S3",
+            "trino integration"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "CSVs",
+                "parquet"
+            ]
+        ]
+    },
+    {
+        "id": "COST-435",
+        "number": null,
+        "gt_us_concepts": [
+            "Presto",
+            "local development with the docker-compose workflow"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Presto",
+                "development using docker-compose"
+            ]
+        ]
+    },
+    {
+        "id": "COST-758",
+        "number": null,
+        "gt_us_concepts": [
+            "reliable image"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "RHEL based Hive image in quay.io"
+            ]
+        ]
+    },
+    {
+        "id": "COST-607",
+        "number": null,
+        "gt_us_concepts": [
+            "unified status page"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "status line in the status page",
+                "knowledge",
+                "Ansible Services teams"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1041",
+        "number": null,
+        "gt_us_concepts": [
+            "delete summary data for the data range"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "AWS Trino",
+                "Azure Trino",
+                "GCP Trino",
+                "OCP Trino"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1165",
+        "number": null,
+        "gt_us_concepts": [
+            "priority queue",
+            "tasks triggered in the UI"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Source deletes",
+                "queue",
+                "cost model cost updates",
+                "cost model pages"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1166",
+        "number": null,
+        "gt_us_concepts": [
+            "OpenShift summary tasks",
+            "their own queue/worker"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "OpenShift summary tasks",
+                "their own worker"
+            ]
+        ]
+    },
+    {
+        "id": "COST-2393",
+        "number": null,
+        "gt_us_concepts": [
+            "OCI",
+            "new provider type for cost management"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "create an OCI provider",
+                "download or processing for said source",
+                "Luke",
+                "creating a real source",
+                "specific account"
+            ]
+        ]
+    },
+    {
+        "id": "COST-568",
+        "number": null,
+        "gt_us_concepts": [
+            "OpenShift projects",
+            "multiple nodes in a cluster"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Nise",
+                "OpenShift data for pods that can exist on multiple nodes in the same project"
+            ]
+        ]
+    },
+    {
+        "id": "COST-543",
+        "number": null,
+        "gt_us_concepts": [
+            "query prometheus directly"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "query prometheus in a cluster using code",
+                "unit tests testing our functionality around querying Prometheus"
+            ]
+        ]
+    },
+    {
+        "id": "COST-109",
+        "number": null,
+        "gt_us_concepts": [
+            "options that should be set statically"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "incomplete static file",
+                "report with meaningful values",
+                "values that were none",
+                "random value with the correct data type"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1036",
+        "number": null,
+        "gt_us_concepts": [
+            "Postgres line items",
+            "S3"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "expired data",
+                "line items"
+            ]
+        ]
+    },
+    {
+        "id": "COST-255",
+        "number": null,
+        "gt_us_concepts": [
+            "associated cost model for a specific cloud account or OCP cluster",
+            "OpenShift and Infrastructure details tables"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "cost model rates for specific source data"
+            ]
+        ]
+    },
+    {
+        "id": "COST-231",
+        "number": null,
+        "gt_us_concepts": [
+            "API queries",
+            "not time out"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "cluster",
+                "prevent time outs",
+                "full month rewrite"
+            ]
+        ]
+    },
+    {
+        "id": "COST-196",
+        "number": null,
+        "gt_us_concepts": [
+            "assess my options for data processing"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "tool for large scale data processing"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1065",
+        "number": null,
+        "gt_us_concepts": [
+            "cluster costs",
+            "connection to cost management for a better connected customer experience"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "cost data integrated into OCM"
+            ]
+        ]
+    },
+    {
+        "id": "COST-434",
+        "number": null,
+        "gt_us_concepts": [
+            "Presto deployed in the cost management OpenShift projects"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Presto is deployed",
+                "e2e-deploy",
+                "CI/QA",
+                "staging/production environments",
+                "app-interface",
+                "testing envrionments"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1029",
+        "number": null,
+        "gt_us_concepts": [
+            "API for my OpenShift on GCP data"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "OpenShift on GCP API"
+            ]
+        ]
+    },
+    {
+        "id": "COST-142",
+        "number": null,
+        "gt_us_concepts": [
+            "data processed as efficiently as possible"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "profile results are posted in the issue",
+                "relevant new issues are open"
+            ]
+        ]
+    },
+    {
+        "id": "COST-546",
+        "number": null,
+        "gt_us_concepts": [
+            "retrieve and store the metrics from a cluster"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "package and send a file",
+                "upload in the logs"
+            ]
+        ]
+    },
+    {
+        "id": "COST-438",
+        "number": null,
+        "gt_us_concepts": [
+            "summary SQL",
+            "run in Presto"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "confirm that the SQL successfully computes",
+                "results are comparable to our Postgresql"
+            ]
+        ]
+    },
+    {
+        "id": "COST-143",
+        "number": null,
+        "gt_us_concepts": [
+            "convert our CSVs to Parquet"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "pick the right solution",
+                "convert our CSVs to Parquet"
+            ]
+        ]
+    },
+    {
+        "id": "COST-114",
+        "number": null,
+        "gt_us_concepts": [
+            "organize arguments into logical groupings"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "existing users of nise",
+                "changes and ony required changes on their part",
+                "all functionality remains",
+                "tests pass"
+            ]
+        ]
+    },
+    {
+        "id": "COST-244",
+        "number": null,
+        "gt_us_concepts": [
+            "remedy my source's status from platform sources"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "provider status can no longer disable a provider"
+            ]
+        ]
+    },
+    {
+        "id": "COST-210",
+        "number": null,
+        "gt_us_concepts": [
+            "leverage AWS organizational units"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "RBAC documentation includes information on using AWS org units"
+            ]
+        ]
+    },
+    {
+        "id": "COST-61",
+        "number": null,
+        "gt_us_concepts": [
+            "place to store private configuration and secrets"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "private git repo is created on Github",
+                "guidelines about what does/doesn't go into the private repo"
+            ]
+        ]
+    },
+    {
+        "id": "COST-149",
+        "number": null,
+        "gt_us_concepts": [
+            "compare the performance of the partitioned tables and API changes"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "better performance from partitioned tables",
+                "API changes"
+            ]
+        ]
+    },
+    {
+        "id": "COST-721",
+        "number": null,
+        "gt_us_concepts": [
+            "woker",
+            "survive cluster upgrades"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "switch celery backend to redis",
+                "remove rabbit deployments",
+                "remove rabbit from app-interface",
+                "remove rabbit from docker-compose"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1037",
+        "number": null,
+        "gt_us_concepts": [
+            "expire partitions of the daily summary table"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "expired data remover removes partitions",
+                "date range for which expired partition is removed is configurable"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1162",
+        "number": null,
+        "gt_us_concepts": [
+            "guarantee that certain tasks can only run one at a time",
+            "for a source and time range"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "only 1 update summary tables task can be running at a time",
+                "only 1 update cost model costs task can be running at a time",
+                "for a source/billing month"
+            ]
+        ]
+    },
+    {
+        "id": "COST-147",
+        "number": null,
+        "gt_us_concepts": [
+            "leverage the partitioned tables in queries",
+            "maintain them via migrations"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "local tests"
+            ]
+        ]
+    },
+    {
+        "id": "COST-107",
+        "number": null,
+        "gt_us_concepts": [
+            "review the reporting class architecture"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "deliver a summary to the team about improvements that we can make to these classes",
+                "create new issues related to improving the application architecture"
+            ]
+        ]
+    },
+    {
+        "id": "COST-85",
+        "number": null,
+        "gt_us_concepts": [
+            "help release code"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "release process document is created and we all sign off as able to release",
+                "training session is held where we review the document",
+                "go through the release process",
+                "schedule is configured so we trade off release responsibilities"
+            ]
+        ]
+    },
+    {
+        "id": "COST-384",
+        "number": null,
+        "gt_us_concepts": [
+            "identify the best statistical library for our current and future use cases"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Discussion with key stakeholders to confirm the selection",
+                "OC to show the library can meet our needs"
+            ]
+        ]
+    },
+    {
+        "id": "COST-298",
+        "number": null,
+        "gt_us_concepts": [
+            "OCP source to reflect an invalid cluster identifier for my account"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "if the given OCP cluster ID is invalid for the users account",
+                "source status should reflect the invalid cluster identifier"
+            ]
+        ]
+    },
+    {
+        "id": "COST-553",
+        "number": null,
+        "gt_us_concepts": [
+            "create rates based on the persistent volume claims in my cluster"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "create a cost model with a rate on persistent volume claims per month",
+                "create a cost model with a rate on persistent volume claims by tag per month",
+                "Cost is calculated for PVCs per month",
+                "if tiered_rates used",
+                "Cost is calculated per PVC tag if tag rates used"
+            ]
+        ]
+    },
+    {
+        "id": "COST-547",
+        "number": null,
+        "gt_us_concepts": [
+            "last N uploads stored via a PVC"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "obtain an upload tar.gz from the file path",
+                "associated list reflects that value",
+                "if you adjust the configured kept packages number"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1026",
+        "number": null,
+        "gt_us_concepts": [
+            "portion of GCP bill allocated to running OpenShift"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "backend processing for OCP on GCP",
+                "APIs"
+            ]
+        ]
+    },
+    {
+        "id": "COST-124",
+        "number": null,
+        "gt_us_concepts": [
+            "page"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "any pages",
+                "404 message",
+                "when the page is not found"
+            ]
+        ]
+    },
+    {
+        "id": "COST-242",
+        "number": null,
+        "gt_us_concepts": [
+            "code behavior in each source path"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "AWS markup cost",
+                "start and end date",
+                "Azure markup cost"
+            ]
+        ]
+    },
+    {
+        "id": "COST-224",
+        "number": null,
+        "gt_us_concepts": [
+            "generators",
+            "base jinja template for generating data"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "AWSGenerator",
+                "jinja template to generate data",
+                "OPCGenerator",
+                "AzureGenerator",
+                "code paths"
+            ]
+        ]
+    },
+    {
+        "id": "COST-198",
+        "number": null,
+        "gt_us_concepts": [
+            "trigger data transformation and report processing",
+            "when new data lands in object storage"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "triggering our data pipeline",
+                "event driven way"
+            ]
+        ]
+    },
+    {
+        "id": "COST-436",
+        "number": null,
+        "gt_us_concepts": [
+            "various environments to connect to environment-specific S3 buckets"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Presto",
+                "our S3 bucket",
+                "query data"
+            ]
+        ]
+    },
+    {
+        "id": "COST-433",
+        "number": null,
+        "gt_us_concepts": [
+            "when I first land on Cost Management > Overview page",
+            "set up Cost Management to start receiving data from my OpenShift Cluster"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "mock that shows what the empty state of the cost management pages would look like",
+                "when there are no sources connected"
+            ]
+        ]
+    },
+    {
+        "id": "COST-444",
+        "number": null,
+        "gt_us_concepts": [
+            "local testing",
+            "unit tests",
+            "production environment"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "any changes to our test data for unit tests",
+                "IQE tests",
+                "data processing/summarization",
+                "Presto"
+            ]
+        ]
+    },
+    {
+        "id": "COST-545",
+        "number": null,
+        "gt_us_concepts": [
+            "cost management operator",
+            "cluster ID",
+            "secret information"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "cluster role binding",
+                "access to the openshift-config namespace",
+                "custom resource status",
+                "pull-secret",
+                "operator",
+                "cluster ID"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1063",
+        "number": null,
+        "gt_us_concepts": [
+            "cost changes from a cost model update"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "cost model cost",
+                "when a cost model has updated rates",
+                "flood of celery tasks"
+            ]
+        ]
+    },
+    {
+        "id": "COST-275",
+        "number": null,
+        "gt_us_concepts": [
+            "eliminate tenants that have no data for some time"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "remove empty tenants on some schedule"
+            ]
+        ]
+    },
+    {
+        "id": "COST-158",
+        "number": null,
+        "gt_us_concepts": [
+            "cost management overview page",
+            "when I have RBAC restrictions on the data I can see"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "AWS materialized views",
+                "account",
+                "Azure materialized views",
+                "correct view",
+                "query handler"
+            ]
+        ]
+    },
+    {
+        "id": "COST-430",
+        "number": null,
+        "gt_us_concepts": [
+            "set rates based on tag key / values"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "base rates",
+                "cost-models API",
+                "multiple values",
+                "tag key",
+                "OpenAPI spec",
+                "new tag_rates"
+            ]
+        ]
+    },
+    {
+        "id": "COST-443",
+        "number": null,
+        "gt_us_concepts": [
+            "summarization flow",
+            "when new data is available in S3"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Presto data summarization",
+                "new data"
+            ]
+        ]
+    },
+    {
+        "id": "COST-291",
+        "number": null,
+        "gt_us_concepts": [
+            "cost management operator",
+            "latest operator base image"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "operator",
+                "regression"
+            ]
+        ]
+    },
+    {
+        "id": "COST-544",
+        "number": null,
+        "gt_us_concepts": [
+            "gather data for all of the relevant prom queries"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "collect all of the existing metrics that we get via the metering operator today"
+            ]
+        ]
+    },
+    {
+        "id": "COST-1196",
+        "number": null,
+        "gt_us_concepts": [
+            "break up our general purpose workers into specialized workers focusing on the four stages of ingest/processing"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "smoke regression testing",
+                "specific workers",
+                "docker-compose",
+                "OCP",
+                "appropriate work",
+                "correct worker"
+            ]
+        ]
+    },
+    {
+        "id": "COST-140",
+        "number": null,
+        "gt_us_concepts": [
+            "our middleware"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "tenants",
+                "customers",
+                "users",
+                "regressions",
+                "unit tests",
+                "IQE tests",
+                "logic changes"
+            ]
+        ]
+    },
+    {
+        "id": "COST-133",
+        "number": null,
+        "gt_us_concepts": [
+            "Postgres 12",
+            "leverage new features and peformance gains"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "local development",
+                "Postgres 12",
+                "our application",
+                "CI, QA, Staging envrionment",
+                "e2e template/image changes",
+                "upgrade path"
+            ]
+        ]
+    },
+    {
+        "id": "COST-189",
+        "number": null,
+        "gt_us_concepts": [
+            "migrations",
+            "release process",
+            "before deploying new code"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "migrations",
+                "application deployment",
+                "all applications",
+                "order requirements"
+            ]
+        ]
+    },
+    {
+        "id": "COST-473",
+        "number": null,
+        "gt_us_concepts": [
+            "when a source that is supposed to be connected to Cost has an issue"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Mock that demonstrates what the UI looks like",
+                "when a bad source happens"
+            ]
+        ]
+    },
+    {
+        "id": "COST-446",
+        "number": null,
+        "gt_us_concepts": [
+            "when I am in the cost management application",
+            "when a source that is supposed to be connected to Cost has an issue"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Mock that demonstrates what the UI looks like when a bad source happens"
+            ]
+        ]
+    },
+    {
+        "id": "COST-276",
+        "number": null,
+        "gt_us_concepts": [
+            "create a cost management prototype using apache druid"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "druid",
+                "OpenShift",
+                "AWS cost data",
+                "OCP cost data",
+                "cost models data",
+                "report queries",
+                "pain points or gotchas or showstoppers",
+                "presentation to show off the POC"
+            ]
+        ]
+    },
+    {
+        "id": "COST-437",
+        "number": null,
+        "gt_us_concepts": [
+            "new Presto tables",
+            "when we add new customer / data"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Presto tables",
+                "any new customer / data"
+            ]
+        ]
+    },
+    {
+        "id": "COST-146",
+        "number": null,
+        "gt_us_concepts": [
+            "create the partitioned table",
+            "current table definition",
+            "requisite number of table partitions"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Script to convert tables and copy data",
+                "Django ORM",
+                "changes"
+            ]
+        ]
+    },
+    {
+        "id": "COST-200",
+        "number": null,
+        "gt_us_concepts": [
+            "my initial RBAC setup",
+            "organizational admin"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Cost Administratore RBAC role",
+                "Default Admin RBAC Group"
+            ]
+        ]
+    },
+    {
+        "id": "COST-431",
+        "number": null,
+        "gt_us_concepts": [
+            "tag base rates to be calculated and added to my supplementary and/or infrastructure costs"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Monthly cost calculations for node and cluster",
+                "cost for nodes and clusters with the specified tag",
+                "Usage costs for line items with matching tag key/value",
+                "additional cost from the tag based rate"
+            ]
+        ]
+    },
+    {
+        "id": "COST-450",
+        "number": null,
+        "gt_us_concepts": [
+            "enable or disable visibility of selected tags from the platform settings UI"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Mocks to show how the user can enable or disable an AWS tag",
+                "Mocks to show how the user can enable or disable an Azure tag",
+                "stakeholders",
+                "clear representation on how the UI would look like and behave"
+            ]
+        ]
+    },
+    {
+        "id": "COST-165",
+        "number": null,
+        "gt_us_concepts": [
+            "default amount of data returned"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "regressions",
+                "enough information for a user to effectively use this form of pagination",
+                "default filter value"
+            ]
+        ]
+    },
+    {
+        "id": "COST-241",
+        "number": null,
+        "gt_us_concepts": [
+            "Azure responses",
+            "consistent unit format"
+        ],
+        "gt_complete": false,
+        "gt_concept_complete": false,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Azure report placeholder values",
+                "proper value",
+                "discussions with product management and UX"
+            ]
+        ]
+    },
+    {
+        "id": "COST-297",
+        "number": null,
+        "gt_us_concepts": [
+            "check if the cost management operator is installed on a configured OpenShift cluster"
+        ],
+        "gt_complete": true,
+        "gt_concept_complete": true,
+        "gt_acceptance_criteria_concepts": [
+            [
+                "Engineering metrics emails",
+                "if cost-mgmt operator is installed on an OCP source",
+                "Prometheus",
+                "metric containing the count of installed/absent OCP sources"
+            ]
+        ]
+    }
+]

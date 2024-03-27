@@ -1,0 +1,8 @@
+[{
+            "number": 1,
+             "id": "doc1",
+             "gt_us_concepts": ["concept1", "concept2"],
+            "gt_acceptance_criteria_concepts": [["concept3", "concept4"], ["concept5", "concept6"]],
+            "gt_concept_complete": false,
+            "gt_complete": false
+         }]
